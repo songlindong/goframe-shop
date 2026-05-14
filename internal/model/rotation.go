@@ -14,5 +14,5 @@ type RotationCreateInput struct {
 
 // RotationCreateOutput 创建内容返回结果
 type RotationCreateOutput struct {
-	RotationId uint `json:"rotation_id"`
+	RotationId int `json:"rotation_id"`
 }

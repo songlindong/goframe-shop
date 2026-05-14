@@ -12,5 +12,5 @@ type RotationReq struct {
 }
 type RotationRes struct {
 	// g.Meta `mime:"text/html" example:"string"`
-	RotationId uint `json:"rotationId"`
+	RotationId int `json:"rotationId"`
 }
